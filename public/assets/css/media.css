@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.press-releases {
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    left: 279px;
+    top: 437px;
+    background-image: url("../img/media/press.jpeg");
+    filter: blur(10px);
+    border-radius: 50px;
+}
