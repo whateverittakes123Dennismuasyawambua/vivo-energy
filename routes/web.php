@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FeedbackController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +18,22 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('about', function () {
+Route::get('/about', function () {
     return view('about');
 });
+<<<<<<< HEAD
 Route::get('media',function(){return view('media');});
+=======
+Route::resource('/contact', FeedbackController::class);
+
+>>>>>>> 00b9b7e59a66853bbdb7896a1a076ceb39f2b5b1
 
 
+
+
+
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
