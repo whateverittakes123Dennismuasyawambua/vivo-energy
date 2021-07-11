@@ -21,6 +21,7 @@
             <link rel="stylesheet" href="{{ asset("assets/css/nice-select.css") }}">
             <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
             <link rel="stylesheet" href="{{asset("assets/css/media.css")}}">
+            <link rel="stylesheet" href = "{{asset("assets/css/fullpage.css")}}">
    </head>
 
    <body>
