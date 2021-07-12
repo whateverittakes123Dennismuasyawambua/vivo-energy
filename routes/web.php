@@ -21,12 +21,17 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-<<<<<<< HEAD
-Route::get('media',function(){return view('media');});
-=======
+Route::get('/media',function(){
+    return view('media');
+});
+Route::get('/gallery',function(){
+    return view('gallery');
+});
+Route::get('/press', function(){
+    return view('press');
+});
 Route::resource('/contact', FeedbackController::class);
 
->>>>>>> 00b9b7e59a66853bbdb7896a1a076ceb39f2b5b1
 
 
 

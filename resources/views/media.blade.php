@@ -45,8 +45,8 @@
                                                 </div>
                                                 <div class="project-cap">
                                                     <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
-                                                    <h4><a href="project_details.html">PRESS RELEASES</a></h4>
-                                                    <h4><a href="project_details.html">
+                                                    <h4><a href="/press">PRESS RELEASES</a></h4>
+                                                    <h4><a href="/press">
                                                         <p>Vivo Energy Uganda, the company that distributes and markets Shell-branded fuels and lubricants in Uganda, together with National Environment Management Authority (NEMA), Uganda Breweries Limited....</p>
                                                     </a></h4>
                                                 </div>
@@ -71,7 +71,7 @@
                                                     <img src="assets/img/gallery/project3.png" alt="">
                                                 </div>
                                                 <div class="project-cap">
-                                                   <a href="project_details.html" class="plus-btn"><i class="ti-plus"></i></a>
+                                                   <a href="/gallery" class="plus-btn"><i class="ti-plus"></i></a>
                                                     <h4><a href="project_details.html">IMAGE GALLERY</a></h4>
                                                 </div>
                                             </div>
@@ -80,6 +80,7 @@
                     <!-- End Nav Card -->
                     </div>
                 </div>
-            </div>
-        </section>
+            </div>            
+</section>
+
 @endsection
